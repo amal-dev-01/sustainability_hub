@@ -258,13 +258,11 @@ CACHE_TTL = 60 * 5  # 5 minutes
 ### Cached Endpoints
 
 - Overdue tasks list is cached for 60 minutes
-- Dashboard summary data is optimized with `select_related` and `prefetch_related`
 
 ### Database Optimization
 
 - Indexed fields for frequent queries (status, due_date, is_completed)
 - Query optimization using `select_related` and `prefetch_related`
-- Efficient ordering by creation date and due date
 
 ---
 
